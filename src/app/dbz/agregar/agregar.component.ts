@@ -12,9 +12,7 @@ export class AgregarComponent {
     poder: 0,
   };
 
-  constructor( private dbzService: DbzService) {
-
-  }
+  constructor( private dbzService: DbzService) {}
 // @Output() onNuevoPersonaje: EventEmitter<Personaje> = new EventEmitter();
 
   agregar() {
