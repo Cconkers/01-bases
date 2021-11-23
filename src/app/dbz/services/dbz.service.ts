@@ -14,12 +14,12 @@ export class DbzService {
     },
   ];
 
-   get personajes(): Personaje[] {
-           return [...this._personajes]
-   }
+  get personajes(): Personaje[] {
+    return [...this._personajes];
+  }
   constructor() {}
-  
-  agregarPersonaje( dataPersonaje:Personaje ) {
-        this._personajes.push( dataPersonaje);
+
+  agregarPersonaje(dataPersonaje: Personaje) {
+    this._personajes.push(dataPersonaje);
   }
 }

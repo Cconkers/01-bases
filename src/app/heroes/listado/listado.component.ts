@@ -16,6 +16,5 @@ export class ListadoComponent {
   public heroeBorrado: string = '';
   public borrarHeroe() {
     this.heroeBorrado = this.heroes.shift() || 'No hay Héroes que borrar';
-
   }
 }
